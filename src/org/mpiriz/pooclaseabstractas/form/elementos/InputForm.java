@@ -4,7 +4,7 @@ public class InputForm extends ElementoForm {
     // si heremos heredar de una clase que es abstracta tendremos que implementar sus methods
 
 
-    private String tipo;
+    private String tipo = "text";
 
 
     public InputForm(String tipo){
